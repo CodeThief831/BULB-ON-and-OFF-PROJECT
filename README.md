@@ -9,8 +9,9 @@ To get started with this project, you'll need to have [Visual Studio Code (VS Co
 ## Usage
 
 1. Open the `BULB.html` file in your web browser.
-2. Click on the Bulb to turn on
-3. click on the same to turn off
+2. For Bulb javascript as been used 'BULB.js'
+3. Click on the Bulb to turn on
+4. click on the same to turn off
 
 ## Code Example
 
