@@ -8,22 +8,19 @@ To get started with this project, you'll need to have [Visual Studio Code (VS Co
 
 ## Usage
 
-1. Open the `index.html` file in your web browser.
-2. Click the "Turn On" button to light up the bulb.
-3. Click the "Turn Off" button to switch off the bulb.
+1. Open the `BULB.html` file in your web browser.
+2. Click on the Bulb to turn on
+3. click on the same to turn off
 
 ## Code Example
 
 ```javascript
 // JavaScript code to control the bulb
-const bulb = document.getElementById("bulb");
-const turnOnButton = document.getElementById("turnOn");
-const turnOffButton = document.getElementById("turnOff");
-
-turnOnButton.addEventListener("click", () => {
-    bulb.classList.add("on");
-});
-
-turnOffButton.addEventListener("click", () => {
-    bulb.classList.remove("on");
-});
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+}
